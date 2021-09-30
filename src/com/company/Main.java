@@ -16,6 +16,6 @@ class Main {
         }
         System.out.println(Arrays.toString(b));
         System.out.print("Choose the element to print-");
-        System.out.println(b[in.nextInt()]);
+        System.out.println(b[in.nextInt()-1]);
     }
 }
