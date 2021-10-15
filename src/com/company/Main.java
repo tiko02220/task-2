@@ -7,10 +7,8 @@ class Main {
         //fibonacci  numbers
         System.out.print("Input the length of fibonacci algorithm-");
         int[] b = new int[in.nextInt()];
-        System.out.print("Input First element-");
-        b[0] = in.nextInt();
-        System.out.print("Input Second element-");
-        b[1] = in.nextInt();
+        b[0] = 1;
+        b[1] = 2;
         for(int i=2;i< b.length;i++){
             b[i] = b[i-1] + b[i-2];
         }
